@@ -60,7 +60,7 @@ namespace LoggingKata
                 }
             }
 
-            Console.WriteLine(location1.Name + location2.Name + distance);
+            Console.WriteLine(location1.Name + " and " + location2.Name + " are " + distance * 0.000621371 + " miles apart");
 
 
             //HINT NESTED LOOPS SECTION---------------------
